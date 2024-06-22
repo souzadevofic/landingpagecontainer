@@ -8,8 +8,6 @@ html {
     font-size: 16px;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -21,17 +19,19 @@ body {
 }
 
 header {
-    background-image: url('../asserts/container.jpg');
+    position: relative;
+    background-image: url('../asserts/capa-container.jpg');
     display: flex;
     background-repeat: no-repeat;
-    height: 80vh;
     background-size: cover;
     width: 100%;
+    height: 30rem;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto */
     
 }
-
-
-
 
 main {
     background-color: #ffffffea ;
@@ -55,10 +55,16 @@ main a {
 
 main a:hover {
     color: #fdfeff;
-    display: flex;
-    background-color: #ff6600;
-    
+}
 
+main li:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6600;
+    height: 100%;
+    width: 5rem;
+    transition: 0.5s;
 }
 
 main button{
@@ -76,7 +82,7 @@ main button{
     border: none;
 }
 
-
+/* Logo Caminhão */
 main img {
     display: flex;
     height: 50px;
@@ -84,9 +90,19 @@ main img {
     margin-right: 80rem;
 }
 
+/* Texto ao lado da Logo */
 main h1 {
     display: flex;
     position: absolute;
     margin-right: 67rem;
     color:#ff6600 ;
+}
+
+
+.text-container h1, h3 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    
+    
 }
