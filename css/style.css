@@ -1,0 +1,92 @@
+/* Importa a fonte Poppins (Google fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Reset: limpar as formatações padrão */
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eff3f5;
+}
+
+header {
+    background-image: url('../asserts/container.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+
+
+
+main {
+    background-color: #ffffffea ;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+main li {
+    list-style-type: none;
+}
+
+main a {
+    color: #030303ea;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #fdfeff;
+    display: flex;
+    background-color: #ff6600;
+    
+
+}
+
+main button{
+    background-color: #ff6600;
+    color: #ffffffea;
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    right: 4%;
+    border-bottom: 0px;
+    font-weight: bold;
+    border: none;
+}
+
+
+main img {
+    display: flex;
+    height: 50px;
+    position: absolute;
+    margin-right: 80rem;
+}
+
+main h1 {
+    display: flex;
+    position: absolute;
+    margin-right: 67rem;
+    color:#ff6600 ;
+}
