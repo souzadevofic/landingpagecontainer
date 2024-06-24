@@ -1,0 +1,127 @@
+/* Importa a fonte Poppins (Google fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Reset: limpar as formatações padrão */
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+
+header {
+    background-color: #ffffffea ;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    gap: 1.5rem;
+    align-items: center;
+    flex-direction: row;
+    position: relative;   
+}
+
+header li {
+    list-style-type: none;
+}
+
+header a {
+    color: #030303ea;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #fdfeff;
+}
+
+li:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6600;
+    color: #eff3f5;
+    height: 100%;
+    width: 5rem;
+    transition: 0.5s;
+}
+
+
+/* Logo: Texto + Icone Caminhão */
+.conteudo-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.conteudo-logo h1 {
+    color: #ff6600;
+}
+/* Logo: Texto + Icone Caminhão */
+
+
+/*Botão do header*/
+header button{
+    background-color: #ff6600;
+    color: #ffffffea;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0px;
+    font-weight: bold;
+    border: none;
+}
+/*Botão do header*/
+
+
+
+
+
+
+
+
+
+
+/* Primeira main */
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+main {
+    height: 50vh;
+    background-image:  url('../asserts/Container_.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 5rem;
+    display: flex; /* Usa flexbox para alinhar os itens lado a lado */
+}
+.section-1 {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
