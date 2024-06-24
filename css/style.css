@@ -15,25 +15,11 @@ html {
 }
 
 body {
-    background-color: #eff3f5;
+    background-color: white;
 }
+
 
 header {
-    position: relative;
-    background-image: url('../asserts/capa-container.jpg');
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 30rem;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    text-align: center; /* Centraliza o texto */
-    color: white; /* Cor do texto */
-    
-}
-
-main {
     background-color: #ffffffea ;
     display: flex;
     height: 70px;
@@ -44,30 +30,31 @@ main {
     
 }
 
-main li {
+header li {
     list-style-type: none;
 }
 
-main a {
+header a {
     color: #030303ea;
     text-decoration: none;
 }
 
-main a:hover {
+header a:hover {
     color: #fdfeff;
 }
 
-main li:hover {
+header li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ff6600;
+    color: #eff3f5;
     height: 100%;
     width: 5rem;
     transition: 0.5s;
 }
 
-main button{
+header button{
     background-color: #ff6600;
     color: #ffffffea;
     position: absolute;
@@ -83,7 +70,7 @@ main button{
 }
 
 /* Logo Caminhão */
-main img {
+header img {
     display: flex;
     height: 50px;
     position: absolute;
@@ -91,18 +78,38 @@ main img {
 }
 
 /* Texto ao lado da Logo */
-main h1 {
+header h1 {
     display: flex;
     position: absolute;
     margin-right: 67rem;
     color:#ff6600 ;
 }
 
-
-.text-container h1, h3 {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    
-    
+main {
+    height: 50vh;
+    background-image: url('../asserts/Container_.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.container {
+    margin-top: 5rem;
+    display: flex; /* Usa flexbox para alinhar os itens lado a lado */
+}
+.section-1 {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
